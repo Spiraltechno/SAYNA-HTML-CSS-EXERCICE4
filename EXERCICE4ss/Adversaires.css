@@ -1,0 +1,227 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+}
+@font-face{
+    font-family: 'Bien';
+    src: url(Far-From\ Homecoming\ Updated.otf);
+}
+/* En tete */
+.PARTIE1{
+    background-color: #F1C530;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 150px;
+    
+}
+.Partie1a a{
+    padding-right: 100px; 
+    color: #fff;
+    width: 900px;
+    font-size: 20px;
+
+}
+.logo img{
+    margin: 10px;
+ }
+
+/* GRAND 1 */
+.GRAND1{
+    background-image: url(img7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    min-height: 800px;
+    color: #fff;
+    
+   
+ }
+.GRAND1 h1{
+    padding: 350px 0px 0px 200px;
+    font-family: 'Bien';
+    text-transform: uppercase;
+    font-size: 100px;
+}
+.GRAND1 h2{
+    padding: 0px 0px 0px 200px;
+}
+
+ /* GRAND 2 */
+ .GRAND2{
+     background-color: #F1C530;
+     padding: 50px;
+ }
+
+.text{
+    width: 274px;
+    border-left: solid 5px #000000;
+    border-right: solid 5px #000000;
+    border-bottom: solid 5px #000000;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 20px;
+    margin-top: -10px;
+
+    
+ }
+.text span{
+    font-weight: bold;
+}
+.text p{
+    margin-bottom: 10px;
+}
+.flexbox
+{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px; 
+}
+.text h1{
+    font-weight:bold ;
+    text-align: center;
+}
+/*  footer */
+.PARTIE3{
+    display: flex;
+    justify-content: space-around;
+    background-color:#000 ;
+    font-size: 20px;
+    padding: 50px;
+    text-align: center;
+}
+.PARTIE3 a{
+    color: #FFF;
+}
+.PARTIE3 select{
+    width: 200px;
+    height: 25px;
+    border-radius: 50px ;
+    background-color: #F1C530;
+    color: #FFF;
+
+}
+.logo1 img{
+    padding: 0px;
+    text-align: cente;
+}
+.photo2{
+margin-bottom: 2px;
+}
+.photo1{
+    height: 25px;
+}
+.photo2{
+    height: 50px;
+}
+
+.PARTIE4{
+    background-color: #000;
+    padding: 50px 50px 10px 50px;
+    display: flex;
+    justify-content: center;
+}
+.img1{
+    border-radius: 50px;
+    background-color: #F1C530;
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+}
+.img2{
+    border-radius: 50px;
+    background-color:#F1C530 ;
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+
+    }
+    
+.img3{
+    border-radius: 50px;
+    background-color: #F1C530;
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+   
+}
+.img4{
+    border-radius: 50px;
+    background-color: #F1C530;
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+   
+
+   }
+   /* PARTIE5 */
+footer {
+    color: #FFF;
+    background-color: #000;
+    padding: 10px 50px 50px 50px;
+    text-align: center;
+}
+@media ( max-width:800px)  {
+    .logo{
+        display: flex;   
+    } 
+    .PARTIE1{
+        background: transparent;
+        position: absolute;
+    }
+     
+    
+    .Partie1a{
+        display: none;
+    }
+    .flexbox{
+        flex-direction: column;
+        
+    }
+    .part{
+        padding: 20px 120px;
+        
+    }
+    .PARTIE3{
+        display: flex;
+        flex-direction: column;
+    }
+    form {
+        position: absolute;
+        margin-left: 300px;
+        margin-top: -180px;
+    }
+      .PARTIE3 a{
+          margin-right: 350px;
+          text-align: start;
+          position: relative;
+          margin-bottom: 10px;
+          width: 200px;
+        }
+        .FOOTER{
+            position: relative;
+        }
+        .logo1{
+            position: absolute;
+            top: 280px;
+            margin-left: 150px;
+        }
+    
+       
+   
+        
+        
+    
+    
+
+}  
